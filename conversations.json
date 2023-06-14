@@ -1,0 +1,302 @@
+{
+    "06-11-2023-0": [
+        {
+            "text": "Give me directions to the nearest starbucks in Washington, DC.",
+            "speaker": "driver",
+            "annotations": {
+                "DISCOURSE": "NAVIGATION_REQUEST",
+                "LOCATION": [
+                    "Washington, DC"
+                ],
+                "POINT_OF_INTEREST": [
+                    "starbucks"
+                ]
+            }
+        },
+        {
+            "text": "The closest starbucks is 2 miles away. Would you like directions?",
+            "speaker": "agent",
+            "annotations": {
+                "DISCOURSE": "REQUEST_ACTION_CONFIRMATION",
+                "POINT_OF_INTEREST": [
+                    "starbucks"
+                ]
+            }
+        },
+        {
+            "text": "Yes please.",
+            "speaker": "driver",
+            "annotations": {
+                "DISCOURSE": "CONFIRM_ACTION"
+            }
+        },
+        {
+            "text": "Head south on 16th street for 1 mile. Turn left on K street.",
+            "speaker": "agent",
+            "annotation": {
+                "DISCOURSE": "NAVIGATION_RESPONSE",
+                "LOCATION": [
+                    "16th street",
+                    "K street"
+                ]
+            }
+        },
+        {
+            "text": "Thank you.",
+            "speaker": "driver",
+            "annotation": {
+                "DISCOURSE": "THANK_YOU"
+            }
+        },
+        {
+            "text": "You're welcome.",
+            "speaker": "agent",
+            "annotation": {
+                "DISCOURSE": "YOU_ARE_WELCOME"
+            }
+        }
+    ],
+    "06-11-2023-1": [
+        {
+            "text": "What are the best coffee shops in the area?",
+            "speaker": "driver",
+            "annotations": {
+                "DISCOURSE": "POI_REQUEST",
+                "TARGET": "coffee shops"
+            }
+        },
+        {
+            "text": "The best coffee shops are Starbucks, Peets, and Philz.",
+            "speaker": "agent",
+            "annotations": {
+                "DISCOURSE": "POI_RESPONSE",
+                "TARGET": "coffee shops",
+                "POINT_OF_INTEREST": [
+                    "starbucks",
+                    "peets",
+                    "philz"
+                ]
+            }
+        },
+        {
+            "text": "Can you give me directions to the closest one?",
+            "speaker": "driver",
+            "annotations": {
+                "DISCOURSE": "NAVIGATION_REQUEST"
+            }
+        },
+        {
+            "text": "The closest coffee shop is Starbucks.",
+            "speaker": "agent",
+            "annotations": {
+                "DISCOURSE": "NAVIGATION_RESPONSE",
+                "POINT_OF_INTEREST": [
+                    "Starbucks"
+                ]
+            }
+        },
+        {
+            "text": "Thank you.",
+            "speaker": "driver",
+            "annotations": {
+                "DISCOURSE": "THANK_YOU"
+            }
+        },
+        {
+            "text": "You're welcome.",
+            "speaker": "agent",
+            "annotations": {
+                "DISCOURSE": "YOU_ARE_WELCOME"
+            }
+        }
+    ],
+    "06-11-2023-2": [
+        {
+            "text": "Which coffee shop is the closest?",
+            "speaker": "driver",
+            "annotations": {
+                "DISCOURSE": "POI_REQUEST",
+                "TARGET": "coffee shop"
+            }
+        },
+        {
+            "text": "The closest coffee shop is Starbucks.",
+            "speaker": "agent",
+            "annotations": {
+                "DISCOURSE": "POI_RESPONSE",
+                "POINT_OF_INTEREST": [
+                    "Starbucks"
+                ]
+            }
+        },
+        {
+            "text": "How far away is it?",
+            "speaker": "driver",
+            "annotations": {
+                "DISCOURSE": "DISTANCE_REQUEST"
+            }
+        },
+        {
+            "text": "It is 2 miles away.",
+            "speaker": "agent",
+            "annotations": {
+                "DISCOURSE": "DISTANCE_RESPONSE"
+            }
+        },
+        {
+            "text": "Can you give me directions?",
+            "speaker": "driver",
+            "annotations": {
+                "DISCOURSE": "NAVIGATION_REQUEST"
+            }
+        },
+        {
+            "text": "Head south on 16th street for 1 mile. Turn left on K street.",
+            "speaker": "agent",
+            "annotations": {
+                "DISCOURSE": "NAVIGATION_RESPONSE",
+                "LOCATION": [
+                    "16th street",
+                    "K street"
+                ]
+            }
+        },
+        {
+            "text": "Great, thanks.",
+            "speaker": "driver",
+            "annotations": {
+                "DISCOURSE": "THANK_YOU"
+            }
+        },
+        {
+            "text": "Of course. Let me know if I can help you with anything else.",
+            "speaker": "agent",
+            "annotations": {
+                "DISCOURSE": "YOU_ARE_WELCOME"
+            }
+        }
+    ],
+    "06-11-2023-3": [
+        {
+            "text": "What are the best thai food places in Duvall Washington?",
+            "speaker": "driver",
+            "annotations": {
+                "DISCOURSE": "POI_REQUEST",
+                "TARGET": "thai food places",
+                "LOCATION": "Duvall Washington"
+            }
+        },
+        {
+            "text": "The best thai food places are Thai Duvall, Thai Duvall Restaurant, and Thai Duvall Restaurant and Bar.",
+            "speaker": "agent",
+            "annotations": {
+                "DISCOURSE": "POI_RESPONSE",
+                "TARGET": "thai food places",
+                "POINT_OF_INTEREST": [
+                    "Thai Duvall",
+                    "Thai Duvall Restaurant",
+                    "Thai Duvall Restaurant and Bar"
+                ]
+            }
+        },
+        {
+            "text": "Can you tell me about the first one?",
+            "speaker": "driver",
+            "annotations": {
+                "DISCOURSE": "POI_REQUEST",
+                "TARGET": "the first one"
+            }
+        },
+        {
+            "text": "Thai Duvall is a Thai restaurant. It is located at 15602 Main St NE, Duvall, WA 98019. The serve a wide variety of traditional dishes including curries and stir fry.",
+            "speaker": "agent",
+            "annotations": {
+                "DISCOURSE": "POI_RESPONSE",
+                "TARGET": "Thai Duvall",
+                "POINT_OF_INTEREST": [
+                    "Thai Duvall"
+                ],
+                "LOCATION": [
+                    "15602 Main St NE, Duvall, WA, 98019"
+                ],
+                "CUISINE": [
+                    "Thai"
+                ]
+            }
+        },
+        {
+            "text": "Would you like me to add them as a stop to your navigation display?",
+            "speaker": "agent",
+            "annotations": {
+                "DISCOURSE": "REQUEST_ACTION_CONFIRMATION"
+            }
+        },
+        {
+            "text": "Yes please.",
+            "speaker": "driver",
+            "annotations": {
+                "DISCOURSE": "CONFIRM_ACTION"
+            }
+        },
+        {
+            "text": "I have added Thai Duvall as a stop to your navigation display.",
+            "speaker": "agent",
+            "annotations": {
+                "DISCOURSE": "ACTION_CONFIRMATION"
+            }
+        }
+    ],
+    "06-11-2023-4": [
+        {
+            "text": "Can you play me some rock songs from the 80's?",
+            "speaker": "driver",
+            "annotations": {
+                "DISCOURSE": "MUSIC_REQUEST",
+                "GENRE": [
+                    "rock"
+                ]
+            }
+        },
+        {
+            "text": "Sure, would you like me to suggest some songs?",
+            "speaker": "agent",
+            "annotations": {
+                "DISCOURSE": "REQUEST_ACTION_CONFIRMATION"
+            }
+        },
+        {
+            "text": "Yes please.",
+            "speaker": "driver",
+            "annotations": {
+                "DISCOURSE": "CONFIRM_ACTION"
+            }
+        },
+        {
+            "text": "One of the most popular 80's rock ballads is Every Rose Has Its Thorn by Poison. Would you like to hear it?",
+            "speaker": "agent",
+            "annotations": {
+                "DISCOURSE": "REQUEST_ACTION_CONFIRMATION",
+                "SONG_NAME": [
+                    "Every Rose Has Its Thorn by Poison"
+                ]
+            }
+        },
+        {
+            "text": "Yes please.",
+            "speaker": "driver",
+            "annotations": {
+                "DISCOURSE": "CONFIRM_ACTION"
+            }
+        },
+        {
+            "text": "Playing Every Rose Has Its Thorn by Poison.",
+            "speaker": "agent",
+            "annotations": {
+                "DISCOURSE": "ACTION_CONFIRMATION",
+                "SONG_NAME": [
+                    "Every Rose Has Its Thorn by Poison"
+                ]
+            }
+        }
+    ]
+}

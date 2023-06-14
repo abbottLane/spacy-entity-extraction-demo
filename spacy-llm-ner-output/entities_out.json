@@ -1,0 +1,63 @@
+{
+    "06-11-2023-0": {
+        "POINT_OF_INTEREST": [
+            "starbucks",
+            "starbucks"
+        ],
+        "LOCATION": [
+            "Washington",
+            "2",
+            "16th street",
+            "K street"
+        ]
+    },
+    "06-11-2023-1": {
+        "POINT_OF_INTEREST": [
+            "coffee shops",
+            "Starbucks",
+            "Peets",
+            "Starbucks"
+        ],
+        "LOCATION": [
+            "closest"
+        ]
+    },
+    "06-11-2023-2": {
+        "LOCATION": [
+            "closest",
+            "2 miles",
+            "16th street",
+            "K street"
+        ],
+        "POINT_OF_INTEREST": [
+            "Starbucks"
+        ]
+    },
+    "06-11-2023-3": {
+        "CUISINE": [
+            "thai"
+        ],
+        "LOCATION": [
+            "Duvall",
+            "Washington"
+        ],
+        "POINT_OF_INTEREST": [
+            "thai",
+            "Thai Duvall",
+            "Thai Duvall",
+            "Thai Duvall",
+            "Thai Duvall",
+            "Thai Duvall"
+        ]
+    },
+    "06-11-2023-4": {
+        "GENRE": [
+            "rock",
+            "rock"
+        ],
+        "SONG_NAME": [
+            "Every Rose Has Its",
+            "Every Rose Has Its Thorn"
+        ]
+    }
+}

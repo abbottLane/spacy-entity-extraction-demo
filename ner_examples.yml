@@ -1,0 +1,74 @@
+- text: Sure. There is Peets Coffee on 4th street, Duvall Cafe on 5th street, and Starbucks on Stewart street.
+  entities:
+    POINT_OF_INTEREST:
+      - Peets Coffee
+      - Duvall Cafe
+      - Starbucks
+    LOCATION:
+      - 4th street
+      - 5th street
+      - Stewart street
+- text: Thank you. I will go to Peets Coffee. Put it on the navigation screen for me.
+  entities:
+    POINT_OF_INTEREST:
+      - Peets Coffee
+- text: There are three places in Miami you may like. Miami Cafe, Miami Bar and Miami Restaurant.
+  entities:
+    POINT_OF_INTEREST:
+      - Miami Cafe
+      - Miami Bar
+      - Miami Restaurant
+    LOCATION:
+      - Miami
+- text: There is a Shell gas station on 4th street in Woodinville and a Chevron gas station in Stillwater, 98109.
+  entities:
+    POINT_OF_INTEREST:
+      - Shell gas station
+      - Chevron gas station
+    LOCATION:
+      - 4th street
+      - Woodinville
+      - Stillwater, 98019
+- text: I would like to go to the nearest gas station to the town of Snoqualmie, WA.
+  entities:
+    LOCATION:
+      - Snoqualmie, WA
+- text: There is a Cole's Pit Stop gas station on 3rd avenue in Snoqualmie, WA.
+  entities:
+    POINT_OF_INTEREST:
+      - Cole's Pit Stop gas station
+    LOCATION:
+      - 3rd avenue
+      - Snoqualmie, WA
+- text: Can you play Acts of Man by Midlake?
+  entities:
+    SONG_NAME:
+      - Acts of Man
+    ARTIST:
+      - Midlake
+- text: Sure I can recommend some good folk music. There is a great band called Dervish who plays traditional Irish folk music, a folk band called Shearwater who play indie folk rock, and fantastic group called Harp, which consists of the former lead singer of folk legends Midlake.
+  entities:
+    GENRE:
+      - folk
+      - indie folk rock
+      - Irish folk
+    ARTIST:
+      - Dervish
+      - Shearwater
+      - Harp
+      - Midlake
+
+- text: Sure, I can recommend some restaurants. There is a great Italian restaurant called Il Bistro on 1st avenue, a great French restaurant called Cafe Campagne on Post Alley, and a great Japanese restaurant called Tsukushinbo on 6th avenue.
+  entities:
+    CUISINE:
+      - Italian
+      - French
+      - Japanese
+    POINT_OF_INTEREST:
+      - Il Bistro
+      - Cafe Campagne
+      - Tsukushinbo
+    LOCATION:
+      - 1st avenue
+      - Post Alley
+      - 6th avenue
