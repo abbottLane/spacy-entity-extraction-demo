@@ -3,4 +3,3 @@ spacy[apple] # For macOS or Linux
 git+https://github.com/explosion/spacy-llm
 accelerate>=0.16.0,<1.0
 transformers
-defaultdict

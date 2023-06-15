@@ -11,7 +11,6 @@ test: venv
 	. venv/bin/activate; \
 	python spacy-llm-ner.py; \
 	python spacy-ner.py
-	
 
 clean:
 	rm -rf venv
